@@ -2,48 +2,48 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
+hashCodeProj/.idea/**/workspace.xml
+hashCodeProj/.idea/**/tasks.xml
+hashCodeProj/.idea/dictionaries
 
 # Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
+hashCodeProj/.idea/**/dataSources/
+hashCodeProj/.idea/**/dataSources.ids
+hashCodeProj/.idea/**/dataSources.local.xml
+hashCodeProj/.idea/**/sqlDataSources.xml
+hashCodeProj/.idea/**/dynamic.xml
+hashCodeProj/.idea/**/uiDesigner.xml
 
 # Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
+hashCodeProj/.idea/**/gradle.xml
+hashCodeProj/.idea/**/libraries
 
 # CMake
-cmake-build-debug/
-cmake-build-release/
+hashCodeProj/cmake-build-debug/
+hashCodeProj/cmake-build-release/
 
 # Mongo Explorer plugin:
-.idea/**/mongoSettings.xml
+hashCodeProj/.idea/**/mongoSettings.xml
 
 ## File-based project format:
-*.iws
+hashCodeProj/*.iws
 
 ## Plugin-specific files:
 
 # IntelliJ
-out/
+hashCodeProj/out/
 
 # mpeltonen/sbt-idea plugin
-.idea_modules/
+hashCodeProj/.idea_modules/
 
 # JIRA plugin
-atlassian-ide-plugin.xml
+hashCodeProj/atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-.idea/replstate.xml
+hashCodeProj/.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
+hashCodeProj/com_crashlytics_export_strings.xml
+hashCodeProj/crashlytics.properties
+hashCodeProj/crashlytics-build.properties
+hashCodeProj/fabric.properties
