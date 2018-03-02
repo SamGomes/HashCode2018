@@ -38,8 +38,8 @@ public class Vehicle {
     }
 
     public void setCurrRide(Ride currRide) {
-        this.stepsLeft =
-                GlobalData.getDistanceBetween(currIntersection, currRide.getFinishIntersection());
+        this.stepsLeft = GlobalData.getDistanceBetween(currIntersection, currRide.getStartIntersection())
+                + currRide.getDistance();
         this.currRide = currRide;
         this.stepsLeft = currRide.getDistance();
         this.doneRides.add(currRide);
