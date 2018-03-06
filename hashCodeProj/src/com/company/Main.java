@@ -31,11 +31,14 @@ public class Main {
         //read input
 
         String filename = "";
-        if (0 < args.length) {
+        String path = "";
+        String outpath = "";
+        if (args.length >= 3) {
             filename = args[0];
+            path = args[1]; //C:\Users\Samuel\Documents\HashCodeStuff\hashCodeProj\src\com\company\inputs\
+            outpath = args[2];
             try {
-                Scanner inputScanner = new Scanner(new File("C:\\Users\\Samuel\\Documents\\HashCodeStuff\\hashCodeProj\\src\\com\\company\\inputs\\"+filename+".in"))
-                        .useDelimiter(" |\n");
+                Scanner inputScanner = new Scanner(new File(path, filename + ".in"));
 
                 numRows = inputScanner.nextInt();
                 numColumns = inputScanner.nextInt();
@@ -105,10 +108,10 @@ public class Main {
 
         System.out.println(lines);
 
-        try (PrintWriter out = new PrintWriter("C:\\Users\\Samuel\\Documents\\HashCodeStuff\\hashCodeProj\\src\\com\\company\\outputs\\"+filename+".out")) {
+        try (PrintWriter out = new PrintWriter(outpath + "\\" + filename + ".out")) { //dont forget to end with /
             out.println(lines);
-        }catch (FileNotFoundException e){
-            System.out.printf("not ok...");
+        } catch (FileNotFoundException e) {
+            System.out.println("not ok...");
         }
 
 //	    // print output
